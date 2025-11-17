@@ -1,0 +1,175 @@
+/*
+
+ Css do html Login
+
+*/
+
+.form-login {
+  width: 32rem;
+  padding: 1.8rem;
+  border-radius: 0.8rem;
+
+  background: rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(5px);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.3);
+}
+
+.form-login h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 0 0 0.8rem #000;
+}
+
+.form-login .inputs input {
+  width: 100%;
+  padding: 1.2rem;
+  margin-top: 0.5rem;
+
+  background: #fff;
+  color: #000;
+
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1.2rem;
+
+  box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.25);
+  transition: 0.25s;
+}
+
+.form-login .logon {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.form-login .logon input {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.form-login .switch-page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.form-login small {
+  font-size: 0.9rem;
+}
+
+/*
+
+  Aqui é o css do html forgot
+
+*/
+.form-forgot {
+  width: 34rem;
+  padding: 2.8rem;
+  border-radius: 1rem;
+
+  background: rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(5px);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.35);
+}
+
+.form-forgot h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  text-shadow: 0 0 0.8rem #000;
+}
+
+.form-forgot .inputs input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+
+  background: #fff;
+  color: #000;
+
+  border: none;
+  border-radius: 0.8rem;
+
+  box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.25);
+  transition: 0.25s;
+}
+
+#switch-page2 {
+  text-align: center;
+}
+
+#switch-page2 small {
+  opacity: 0.95;
+  font-size: 0.9rem;
+}
+/* 
+
+  aqui é o css do create
+
+*/
+.form-create {
+  width: 34rem;
+  padding: 2.8rem;
+  border-radius: 1rem;
+
+  background: rgba(0, 0, 0, 0.18);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.35);
+}
+
+.form-create h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  text-shadow: 0 0 0.8rem #000;
+  margin-bottom: 0.8rem;
+}
+
+.form-create .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.form-create .inputs input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+
+  background: #fff;
+  color: #000;
+
+  border: none;
+  border-radius: 0.8rem;
+
+  box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.25);
+  transition: 0.25s;
+}
+
+.switch-page3 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.switch-page3 small {
+  font-size: 0.9rem;
+  opacity: 0.95;
+}

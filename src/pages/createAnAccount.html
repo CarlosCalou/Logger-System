@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an account</title>
+
+    <link rel="stylesheet" href="../style/global.css" />
+    <link rel="stylesheet" href="../style/form.css" />
+  </head>
+
+  <body>
+    <form class="form-create">
+      <h1>Create an account</h1>
+
+      <div class="inputs">
+        <input type="email" id="email-create" placeholder="type your email" />
+
+        <input
+          type="text"
+          id="username-create"
+          placeholder="create a username"
+        />
+
+        <input
+          type="password"
+          id="password-create"
+          placeholder="create a password"
+        />
+      </div>
+
+      <button class="btn-grad" id="create-account-btn">Create account</button>
+
+      <div class="switch-page3">
+        <small>
+          Already have an account?
+          <a id="go-to-login" href="#">Click here.</a>
+        </small>
+
+        <small>
+          Forgot your password?
+          <a id="go-to-forgot" href="#">Click here.</a>
+        </small>
+      </div>
+    </form>
+
+    <!-- IMPORTANTE: linkar o JS -->
+    <script src="../script/createAccount.js"></script>
+  </body>
+</html>

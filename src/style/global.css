@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jura", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8125rem;
+  background: #8e2de2;
+  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
+}
+
+h1 {
+  font-size: 3.25rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem #000000;
+}
+
+h2 {
+  text-shadow: 0.1rem 0.1rem 0.5rem #000000;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #000000 0%,
+    #434343 51%,
+    #000000 100%
+  );
+  margin: 0.625rem;
+  padding: 1.25rem 4.6875rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 0.125rem #eee;
+  border-radius: 0.625rem;
+  display: block;
+  border: none;
+  cursor: pointer;
+  font-size: 1.65rem;
+  font-weight: 700;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}

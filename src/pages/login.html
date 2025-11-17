@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/global.css" />
+    <link rel="stylesheet" href="../style/form.css" />
+    <title>Logger System - Login</title>
+  </head>
+
+  <body>
+    <form class="form-login">
+      <h1>Login</h1>
+
+      <div class="inputs">
+        <input id="username-login" type="text" placeholder="username" />
+        <input id="password-login" type="password" placeholder="password" />
+      </div>
+
+      <div class="logon">
+        <input id="checkbox-login" type="checkbox" />
+        <label for="checkbox-login">show password</label>
+      </div>
+
+      <button class="btn-grad" id="button-login">Login</button>
+
+      <div class="switch-page">
+        <small>
+          Forgot your password? Recover it
+          <a id="forgot-start" href="#">here</a>
+        </small>
+        <small>
+          Don't have an account?
+          <a id="create-start" href="#">here</a>
+        </small>
+      </div>
+    </form>
+
+    <script src="../script/forgot.js"></script>
+  </body>
+</html>
