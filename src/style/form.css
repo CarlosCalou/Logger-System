@@ -89,10 +89,32 @@
   text-shadow: 0 0 0.8rem #000;
 }
 
+.form-forgot .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.logon {
+  display: flex;
+  align-items: left;
+  gap: 0.5rem;
+  cursor: pointer;
+  justify-content: center;
+
+}
+
+
+
+
 .form-forgot .inputs input {
   width: 100%;
   padding: 1.2rem;
   font-size: 1.2rem;
+
 
   background: #fff;
   color: #000;
@@ -112,6 +134,7 @@
   opacity: 0.95;
   font-size: 0.9rem;
 }
+
 /* 
 
   aqui é o css do create

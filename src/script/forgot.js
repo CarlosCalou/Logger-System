@@ -1,3 +1,5 @@
+// essa tela e do login
+
 const username = document.querySelector("#username-login");
 const password = document.querySelector("#password-login");
 const checkbox = document.querySelector("#checkbox-login");
@@ -13,7 +15,10 @@ button.addEventListener("click", (event) => {
     return;
   }
 
-  if (usernameValue !== "CarlosCalou" || passwordValue !== "123") {
+  const usernameSession = sessionStorage.getItem("username");
+  const passwordSession = sessionStorage.getItem("password");
+
+  if (usernameValue !== usernameSession || passwordValue !== passwordSession) {
     alert("Incorrect ursaname or password.");
     return;
   }
