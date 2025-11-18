@@ -13,6 +13,7 @@ checkbox.addEventListener("change", () => {
   const type = password.getAttribute("type");
   if (type === "password") {
     password.setAttribute("type", "text");
+    passwordconfirmed.setAttribute("type", "text");
     return;
   }
   password.setAttribute("type", "password");
@@ -23,12 +24,12 @@ button.addEventListener("click", (event) => {
 
   const usernameValue = username.value;
   const passwordValue = password.value;
-  const passwordValueConfirmed = passwordconfirmed.value;
+  const passwordConfimValue = passwordconfirmed.value;
 
   if (
     usernameValue === "" ||
     passwordValue === "" ||
-    passwordValueConfirmed === ""
+    passwordConfimValue === ""
   ) {
     alert("Fill in all fields!");
     return;
@@ -37,7 +38,7 @@ button.addEventListener("click", (event) => {
   const usernameSession = sessionStorage.getItem("username");
   const passwordSession = sessionStorage.getItem("password");
 
-  if (passwordValue !== passwordValueConfirmed) {
+  if (passwordValue !== passwordConfimValue) {
     alert("Passwords don't match!");
     return;
   }
