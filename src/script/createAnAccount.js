@@ -1,3 +1,7 @@
+const email = document.querySelector("#email-create");
+const username = document.querySelector("#username-create");
+const password = document.querySelector("#password-create");
+
 const createBtn = document.querySelector("#create-account-btn");
 createBtn.addEventListener("click", () => {
   alert("Account created successfully! (simulation)");
