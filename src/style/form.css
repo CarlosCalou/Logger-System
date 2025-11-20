@@ -25,6 +25,22 @@
   text-shadow: 0 0 0.8rem #000;
 }
 
+.typing::after {
+  content: "|";
+  margin-left: 5px;
+  animation: blink 0.6s infinite;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
 .form-login .inputs input {
   width: 100%;
   padding: 1.2rem;
@@ -104,17 +120,12 @@
   gap: 0.5rem;
   cursor: pointer;
   justify-content: center;
-
 }
-
-
-
 
 .form-forgot .inputs input {
   width: 100%;
   padding: 1.2rem;
   font-size: 1.2rem;
-
 
   background: #fff;
   color: #000;
