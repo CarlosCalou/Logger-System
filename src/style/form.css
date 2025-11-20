@@ -207,3 +207,54 @@
   font-size: 0.9rem;
   opacity: 0.95;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .btn-grad {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .form-login,
+  .form-create,
+  .form-forgot {
+    width: 100%;
+    padding: 1.4rem;
+    border-radius: 0.6rem;
+  }
+
+  .form-login h1,
+  .form-create h1,
+  .form-forgot h1 {
+    font-size: 2rem;
+  }
+
+  .inputs input {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .switch-page small,
+  .switch-page2 small,
+  .switch-page3 small {
+    font-size: 0.85rem;
+  }
+
+  button.btn-grad {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+}
